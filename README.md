@@ -12,14 +12,29 @@ and see who wins the best of the chosen number of rounds!
 - Score tracking for player, computer, and ties
 - Declares the winner at the end of all rounds
 
-## How to Run
+## Project Structure
+├── src/
+│ └── main/
+│ └── java/
+│ └── com/
+│ └── sg/
+│ └── rockpaperscissors/
+│ └── Game.java
+├── README.md
 
-1. Make sure you have Java installed on your system (Java 8 or higher recommended).
-2. Compile the program: javac Game.java
+- The main game logic is located in `Game.java` under the package `com.sg.rockpaperscissors`.
+- This follows a standard Java project structure with source files organized under `src/main/java`.
 
-3. Run the program: java Game
+## How to Build and Run
 
-4. Follow the on-screen prompts to enter the number of rounds and your choice each round:
+1. Make sure you have Java installed (Java 8 or higher recommended).
+2. Navigate to the project root directory: cd Rock-Paper-Scissors
+
+3. Compile the Java source files: javac src/main/java/com/sg/rockpaperscissors/Game.java
+
+4. Run the game: java -cp src/main/java com.sg.rockpaperscissors.Game
+
+5. Follow the on-screen prompts to enter the number of rounds and your choice each round:
 - Enter `1` for Rock
 - Enter `2` for Scissors
 - Enter `3` for Paper
