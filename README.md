@@ -1,7 +1,5 @@
 # Rock-Paper-Scissors
-This is an example of a rock paper scissors game I created using Java 8
-
-A simple console-based Rock-Paper-Scissors game written in Java.  
+This is an example of a rock paper scissors game I created using Java 8.  
 Play against the computer by selecting rock, paper, or scissors, 
 and see who wins the best of the chosen number of rounds!
 
