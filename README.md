@@ -11,6 +11,7 @@ and see who wins the best of the chosen number of rounds!
 - Declares the winner at the end of all rounds
 
 ## Project Structure
+Rock-Paper-Scissors/
 ├── src/
 │ └── main/
 │ └── java/
